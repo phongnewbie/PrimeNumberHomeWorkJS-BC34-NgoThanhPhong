@@ -34,7 +34,7 @@ function printPrimeNumber() {
   for (var i = 1; i <= number; i++) {
     // Nếu là số nguyên tố thì in ra
     if (checkingPrimeNumber(i)) {
-      resultNumber += i + " <br/>";
+      resultNumber += `${i} <br>`;
     }
     document.getElementById("resultPrimeNumber").innerHTML = resultNumber;
   }
